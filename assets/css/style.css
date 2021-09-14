@@ -1,0 +1,134 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Montserrat, sans-serif;
+  background: #333333 url(../img/cupula2.png) center center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body main {
+  height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main .app {
+  background-color: #333333;
+  width: 500px;
+  height: 450px;
+  -webkit-box-shadow: 0px 0px 19px 2px rgba(255, 148, 9, 0.384);
+          box-shadow: 0px 0px 19px 2px rgba(255, 148, 9, 0.384);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 10px;
+}
+
+body main .app .titulo {
+  height: 70px;
+  background: #333333;
+  color: #fbfbfb;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
+}
+
+body main .app .titulo h3 {
+  font-size: 24px;
+  line-height: 24px;
+}
+
+body main .app .perguntas {
+  height: 310px;
+  background: #fbfbfb;
+  color: #333333;
+}
+
+body main .app .perguntas p {
+  padding: 15px 15px 10px 15px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+body main .app .perguntas ul {
+  padding: 0;
+}
+
+body main .app .perguntas li {
+  padding: 10px 0 10px 15px;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body main .app .perguntas li label {
+  padding-left: 5px;
+  cursor: pointer;
+}
+
+body main .app button {
+  width: 100%;
+  height: 70px;
+  background: #ff3838;
+  border: none;
+  border-radius: 0 0 10px 10px;
+}
+
+body main .app button:hover {
+  background: #f20109;
+  cursor: pointer;
+}
+
+body main .app button h3 {
+  color: #fbfbfb;
+}
+
+body .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  width: 100%;
+}
+
+body .logo img {
+  opacity: 0.7;
+  padding-top: 10px;
+}
+
+@media only screen and (max-width: 520px) {
+  .app {
+    margin: 0 20px;
+  }
+}
+
+@media only screen and (max-height: 700px) {
+  .app {
+    margin-top: 60px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
